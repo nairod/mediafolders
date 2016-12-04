@@ -1,0 +1,32 @@
+group 'flask.ch'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+apply plugin: 'application'
+mainClassName = 'ch.flask.mediafolders.MediaFolders'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+// https://mvnrepository.com/artifact/joda-time/joda-time
+    compile group: 'joda-time', name: 'joda-time', version: '2.9.5'
+//    compile "joda-time:joda-time:2.2"
+// https://mvnrepository.com/artifact/com.drewnoakes/metadata-extractor
+    compile group: 'com.drewnoakes', name: 'metadata-extractor', version: '2.9.1'
+// https://mvnrepository.com/artifact/com.google.maps/google-maps-services
+    compile group: 'com.google.maps', name: 'google-maps-services', version: '0.1.16'
+
+    testCompile group: 'org.jmockit', name: 'jmockit', version: '1.8'
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+
+jar {
+    baseName = 'mediafolders.jar'
+    version = '1.0'
+}

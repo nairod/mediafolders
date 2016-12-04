@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ch.flask.mediafolders.MediaMoverTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2016-12-04T12:06:45" hostname="dorian-All-Series" time="0.197">
+  <properties/>
+  <testcase name="moveFoto_duplicated" classname="ch.flask.mediafolders.MediaMoverTest" time="0.085"/>
+  <testcase name="moveVideo_simple" classname="ch.flask.mediafolders.MediaMoverTest" time="0.061"/>
+  <testcase name="moveFoto_simple" classname="ch.flask.mediafolders.MediaMoverTest" time="0.025"/>
+  <testcase name="moveVideo_duplicated" classname="ch.flask.mediafolders.MediaMoverTest" time="0.024"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Dez 04, 2016 1:06:46 PM ch.flask.mediafolders.MediaMover move
+INFORMATION: from /tmp/junit7805113818632068132/DSC_0672.JPG to /tmp/junit3076175018910624191/target/2016/Berlin/DSC_0672.JPG
+Dez 04, 2016 1:06:46 PM ch.flask.mediafolders.MediaMover move
+INFORMATION: from /tmp/junit7805113818632068132/DSC_0672.JPG to /tmp/junit3076175018910624191/target/2016/Berlin/doppelte/DSC_0672.JPG
+Dez 04, 2016 1:06:46 PM ch.flask.mediafolders.MediaMover move
+INFORMATION: from /tmp/junit8649289427914100899/test-mpeg.mp4 to /tmp/junit8853490796581416782/target/2016/test-mpeg.mp4
+Dez 04, 2016 1:06:46 PM ch.flask.mediafolders.MediaMover move
+INFORMATION: from /tmp/junit4264075989848681814/DSC_0672.JPG to /tmp/junit2057290775400195809/target/2016/Berlin/DSC_0672.JPG
+Dez 04, 2016 1:06:46 PM ch.flask.mediafolders.MediaMover move
+INFORMATION: from /tmp/junit308453686493506733/test-mpeg.mp4 to /tmp/junit1449398189769123872/target/2016/test-mpeg.mp4
+Dez 04, 2016 1:06:46 PM ch.flask.mediafolders.MediaMover move
+INFORMATION: from /tmp/junit308453686493506733/test-mpeg.mp4 to /tmp/junit1449398189769123872/target/2016/doppelte/test-mpeg.mp4
+]]></system-err>
+</testsuite>
