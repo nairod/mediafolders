@@ -8,14 +8,13 @@ import java.util.logging.Logger;
 
 final class MediaMoverProperties {
 	private final Properties props = new Properties();
-	private final InputStream inputStream = null;
 	private final String sourcePath;
 	private final String googleApiKey;
 	private final String targetVideoPath;
 	private final String targetPhotoPath;
 
 	MediaMoverProperties() {
-		MediaMoverProperties.class.getResourceAsStream("mediafolders.properties");
+		InputStream inputStream = MediaMoverProperties.class.getResourceAsStream("mediafolders.properties");
 		try {
 			props.load(inputStream);
 		} catch (IOException e) {
